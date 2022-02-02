@@ -5,5 +5,7 @@ class Article(models.Model):
     body=models.CharField(max_length=500)
     
     
+    
+    
     def __str__(self) -> str:
         return self.title
